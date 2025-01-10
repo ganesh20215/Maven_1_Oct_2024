@@ -22,10 +22,10 @@ public class BasicsOfTestNG {
     @Test
     public void testCase_2(){
         driver.get("https://www.amazon.in/");
+		System.out.println("Hello Word");
     }
 
     @AfterMethod
     public void tearDown(){
-        driver.close();
     }
 }
