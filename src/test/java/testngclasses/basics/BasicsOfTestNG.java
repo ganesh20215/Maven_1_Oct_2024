@@ -21,7 +21,7 @@ public class BasicsOfTestNG {
 
     @Test
     public void testCase_2(){
-        driver.get("https://www.amazon.in/");
+        driver.get("https://www.google.in/");
     }
 
     @AfterMethod
